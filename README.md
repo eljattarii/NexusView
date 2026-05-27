@@ -1,5 +1,5 @@
 # NexusView
-![NexusView Screenshot] (assets/Screensho_for_NexusView.png)
+![NexusView Screenshot](assets/Screensho_for_NexusView.png)
 NexusView is a powerful GUI tool designed to manage `scrcpy` and `adb` with ease.
 
 ## Features
