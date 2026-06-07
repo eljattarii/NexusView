@@ -1,7 +1,7 @@
 # NexusView
 
 <p align="center">
-  <img src="assets/logo.png" width="120" alt="NexusView Logo">
+  <img src="assets/icon.jpg" width="120" alt="NexusView Logo">
 </p>
 
 <h1 align="center">NexusView</h1>
