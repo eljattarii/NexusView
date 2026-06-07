@@ -68,17 +68,30 @@ Designed for developers, Android enthusiasts, and power users who want a clean d
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/eljattari/NexusView.git
+git clone https://github.com/eljattarii/NexusView.git
 cd NexusView
 ```
 
-### 2️⃣ Install Python dependencies
+---
+
+### 2️⃣ Create a virtual environment (Recommended)
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### 3️⃣ Install Python dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Install ADB and scrcpy
+---
+
+### 4️⃣ Install ADB and scrcpy
 
 #### Ubuntu / Debian
 
@@ -87,12 +100,24 @@ sudo apt update
 sudo apt install adb scrcpy
 ```
 
+#### Arch Linux
+
+```bash
+sudo pacman -S android-tools scrcpy
+```
+
+#### Fedora
+
+```bash
+sudo dnf install android-tools scrcpy
+```
+
 ---
 
 ## ▶️ Run the Application
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 ---
